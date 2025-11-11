@@ -2,11 +2,11 @@
 isIndex: true
 title: Accueil
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758116916/416.Data-Analyst_rriqqc.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
 hero:
   title: Créez le site Web de votre entreprise sécurisé et ultra rapide.
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116916/416.Data-Analyst_rriqqc.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
   image_2:
     src: https://res.cloudinary.com/uncinq/image/upload/v1759305747/website_fyqtjp.png
   ctas:
