@@ -18,4 +18,4 @@ hero:
 
 Voici quelques captures d’écran de l’espace admin {{< brand >}} qui permet de mettre à jour votre contenu.
 
-{{< figure src="https://res.cloudinary.com/uncinq/image/upload/v1759306691/screenshot-{{< brand >}}-decapcms-home_g0pcfg.png" legend="Accueil" screenshot="true" >}}
+{{< brand_figure_cms >}}

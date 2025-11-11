@@ -2,12 +2,12 @@
 isPage: true
 draft: false
 title: Infrastructure technique
-description: "Découvrez l’infrastructure technique de {{< brand >}}".
+description: "Découvrez l’infrastructure technique de {{< brand >}}."
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
 hero:
   title: Infrastructure technique
-  text: "Découvrez l’infrastructure technique de {{< brand >}}".
+  text: "Découvrez l’infrastructure technique de {{< brand >}}."
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/181.Nodes_vgmgrr.svg
 ---
