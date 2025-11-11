@@ -17,8 +17,8 @@ blocks:
       title: Simplement par
     cta:
       blank: true
-      url: "mailto:{{< brand >}}@uncinq.dev"
-      text: "email à {{< brand >}}@uncinq.dev"
+      url: "mailto:{{< brand_email >}}"
+      text: "email à {{< brand_email >}}"
     cta_second:
       blank: true
       url: 'tel:+33678858604'

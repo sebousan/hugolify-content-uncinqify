@@ -9,5 +9,6 @@ module:
 # Set brand
 params:
   brand:
+    email: contact@uncinq.dev
     name: Un Cinq
     url: uncinq.dev
