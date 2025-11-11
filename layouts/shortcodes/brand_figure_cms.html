@@ -1,0 +1,14 @@
+{{- $src := .Site.Params.brand.cms.decap | default false -}}
+{{- $alt := "" -}}
+{{- $legend := "Accueil" -}}
+{{- $screenshot := true -}}
+{{- $desktop := site.Params.image.desktop | default false -}}
+{{- $mobile := site.Params.image.mobile_full | default false -}}
+{{- partial "commons/figure.html" (dict
+  "src" $src 
+  "alt" $alt 
+  "desktop" $desktop
+  "mobile" $mobile
+  "legend" $legend 
+  "screenshot" $screenshot
+  ) -}}

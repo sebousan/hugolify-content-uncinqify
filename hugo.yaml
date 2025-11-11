@@ -3,12 +3,16 @@ module:
   mounts:
     - source: content
       target: content
+    - source: data
+      target: data
     - source: layouts
       target: layouts
 
 # Set brand
 params:
   brand:
+    cms:
+      decap: https://res.cloudinary.com/uncinq/image/upload/v1758126305/screenshot-hugolify-decapcms-home_ynatqv.png
     email: contact@uncinq.dev
     name: Un Cinq
     url: uncinq.dev
