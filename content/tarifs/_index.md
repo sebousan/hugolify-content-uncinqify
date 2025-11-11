@@ -80,7 +80,7 @@ blocks:
           url: /contact/
           text: Contactez-nous
       - title: Pack Associés
-        text: Pour un cabinet de plusieurs collaborateurs.
+        text: Pour une entreprise de plusieurs collaborateurs.
         offer:
           price: 69
           frequency: /mois
@@ -120,7 +120,7 @@ blocks:
           url: /contact/
           text: Contactez-nous
       - title: Pack International
-        text: Pour plusieurs cabinets de plusieurs collaborateurs.
+        text: Pour une entreprise avec plusieurs lieux de plusieurs collaborateurs.
         offer:
           price: 99
           frequency: /mois
@@ -161,6 +161,7 @@ blocks:
         cta:
           url: /contact/
           text: Contactez-nous
+  
   - type: informations
     heading:
       surtitle: Options
