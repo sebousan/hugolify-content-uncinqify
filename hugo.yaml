@@ -1,0 +1,13 @@
+# Mounts
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: layouts
+      target: layouts
+
+# Set brand
+params:
+  brand:
+    name: Un Cinq
+    url: uncinq.dev

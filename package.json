@@ -1,0 +1,22 @@
+{
+  "name": "hugolify-content-uncinqify",
+  "version": "0.0.0",
+  "homepage": "https://uncinq.dev",
+  "repository": "https://github.com/sebousan/hugolify-content-uncinqify",
+  "bugs": {
+    "url": "https://github.com/sebousan/hugolify-content-uncinqify/issues"
+  },
+  "author": {
+    "email": "sebousan@gmail.com",
+    "name": "Sébastien Moulène",
+    "url": "https://www.sebastienmoulene.com/"
+  },
+  "keywords": [
+    "hugolify",
+    "hugo"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@hugolify/prettier-config": "^0.3.1"
+  }
+}
