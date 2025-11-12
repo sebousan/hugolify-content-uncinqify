@@ -16,3 +16,6 @@ params:
     email: contact@uncinq.dev
     name: Un Cinq
     url: uncinq.dev
+    your:
+      of: de votre entreprise
+      to: à votre entreprise

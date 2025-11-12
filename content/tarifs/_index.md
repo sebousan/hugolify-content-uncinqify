@@ -2,12 +2,12 @@
 isPage: true
 draft: false
 title: Tarifs et forfaits
-description: Des formules adaptées à la taille et aux besoins de votre cabinet, avec une tarification claire et transparente.
+description: "Des formules adaptées à la taille et aux besoins {{< brand_your `of` >}}, avec une tarification claire et transparente."
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758116894/398.Make-It-Rain_cad0hn.svg
 hero:
   title: Tarifs et forfaits
-  text: Des formules adaptées à la taille et aux besoins de votre cabinet, avec une tarification claire et transparente.
+  text: "Des formules adaptées à la taille et aux besoins {{< brand_your `of` >}}, avec une tarification claire et transparente."
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116894/398.Make-It-Rain_cad0hn.svg
 blocks:
@@ -26,7 +26,7 @@ blocks:
       
       * La mise en place du thème {{< brand >}} ;
 
-      * Ajout du logo, couleurs et typographies du cabinet ;
+      * Ajout du logo, couleurs et typographies ;
       
       * La personnalisation du CMS selon vos besoins ;
       
@@ -37,7 +37,7 @@ blocks:
   - type: comparison
     heading:
       surtitle: Forfaits
-      title: Un site Web de grande qualité à un prix adapté à la taille de votre cabinet
+      title: "Un site Web de grande qualité à un prix adapté à la taille {{< brand_your `of` >}}"
       text: En complément de l’installation, un abonnement mensuel est requi.
     column: 3
     items:
@@ -148,7 +148,7 @@ blocks:
             icon: hand-thumbs-up
           - text: Actualité
             icon: check
-          - text: Cabinets
+          - text: Lieux
             icon: check
           - text: Compétences et expertises
             icon: check

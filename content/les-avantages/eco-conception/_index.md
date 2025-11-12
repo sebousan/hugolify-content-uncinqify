@@ -26,7 +26,7 @@ En adoptant une approche écologique pour son site Web, il est possible de rédu
 
 ## Impact positif sur l'environnement
 
-Il va de soi que l'éco-conception d'un site Web a un impact positif sur l'environnement en réduisant les besoins en énergie et les émissions de gaz à effet de serre liées à son utilisation. C'est aussi un moyen de montrer une prise de responsabilité en termes de développement durable pour les cabinets qui veulent renforcer leur image de marque responsable.
+Il va de soi que l'éco-conception d'un site Web a un impact positif sur l'environnement en réduisant les besoins en énergie et les émissions de gaz à effet de serre liées à son utilisation. C'est aussi un moyen de montrer une prise de responsabilité en termes de développement durable pour les entreprises qui veulent renforcer leur image de marque responsable.
 
 ## Bonus de classement pour les moteurs de recherche
 

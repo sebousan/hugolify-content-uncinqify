@@ -2,16 +2,14 @@
 isPage: true
 draft: false
 title: CMS orienté métier
-description: Grâce à son espace d’administration dédié aux cabinets d’avocats, la mise à jour de contenu est facilité.
+description: "Grâce à son espace d’administration dédié {{< brand_your >}}, la mise à jour de contenu est facilité."
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758116462/123.Website-builder_phc3b0.svg
 hero:
   title: CMS orienté métier
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116462/123.Website-builder_phc3b0.svg
-  text:
-    Grâce à son espace d’administration dédié aux cabinets d’avocats, la mise à
-    jour de contenu est facilité.
+  text: "Grâce à son espace d’administration dédié {{< brand_your >}}, la mise à jour de contenu est facilité."
 ---
 
 ## Espace admin

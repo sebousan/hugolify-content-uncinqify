@@ -4,7 +4,7 @@ title: Accueil
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
 hero:
-  title: Créez le site Web de votre entreprise sécurisé et ultra rapide.
+  title: "Créez le site Web {{< brand_your `of` >}} sécurisé et ultra rapide."
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116615/205.OK_zdg2ue.svg
   image_2:
@@ -50,13 +50,21 @@ blocks:
     background: true
     heading:
       surtitle: Forfaits et tarifs
-      title: Et un prix adapté à la taille de votre entreprise !
+      title: "Et un prix adapté à la taille {{< brand_your `of` >}} !"
     cta:
       url: /tarifs/
       text: En savoir plus sur les forfaits et tarifs
 
+  - type: editorial
+    direction: rtl
+    surtitle: Orienté métier
+    title: Les fonctionnalités
+    text: "Création du contenu : lieux, personnes (associés, collaborateurs…), expertises métier, actualités…"
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1758116479/147.Multitasking_wqtjvy.svg
+
   - type: figure
-    background: true
+    background: false
     grid: medium
     offset: center
     heading:

@@ -2,6 +2,8 @@
 {{ $text = replace $text "{{< brand_email >}}" site.Params.brand.email }}
 {{ $text = replace $text "{{< brand_screenshot_cms >}}" site.Params.brand.cms.decap }}
 {{ $text = replace $text "{{< brand_url >}}" site.Params.brand.url }}
+{{ $text = replace $text "{{< brand_your >}}" site.Params.brand.your.to }}
+{{ $text = replace $text "{{< brand_your `of` >}}" site.Params.brand.your.of }}
 {{ return
   safeHTML (
     chomp (
