@@ -2,12 +2,12 @@
 isPage: true
 draft: false
 title: Contact
-description: Pour toutes informations ou intérogations concernant la solution.
+description: Pour toutes informations ou interrogations concernant la solution.
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1758116483/153.Mention_kqyrso.svg
 hero:
   title: Contact
-  text: Pour toutes informations ou intérogations concernant la solution.
+  text: Pour toutes informations ou interrogations concernant la solution.
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116483/153.Mention_kqyrso.svg
 blocks:
