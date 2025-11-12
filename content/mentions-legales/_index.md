@@ -5,12 +5,12 @@ title: Mentions légales
 hero:
   title: Mentions légales
   image:
-    src: https://res.cloudinary.com/uncinq/image/upload/v1758116484/155.Curiosity_umucva.svg
+    src: https://res.cloudinary.com/uncinq/image/upload/v1758116942/455.Brave-Secretary_b34lev.svg
 image:
-  src: https://res.cloudinary.com/uncinq/image/upload/v1758116484/155.Curiosity_umucva.svg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1758116942/455.Brave-Secretary_b34lev.svg
 ---
 
-_Date de dernière mise à jour : février 2024_
+_Date de dernière mise à jour : novembre 2025_
 
 ## Bienvenue sur le site {{< brand_url >}}
 
@@ -19,6 +19,14 @@ En utilisant ce site, vous reconnaissez avoir pris connaissance des dispositions
 ## Responsable de publication
 
 Le site {{< brand_url >}} est la propriété de {{< blank_link link="https://www.uncinq.dev" text="Un Cinq" >}}.
+
+**Un Cinq** \
+3 rue Lageyre \
+Bordeaux, \
+France.
+
++33 6 78 85 86 04\
+{{< blank_link link="mailto:contact@uncinq.dev" text="contact@uncinq.dev" >}}
 
 ## Hébergement
 
