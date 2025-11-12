@@ -1,7 +1,7 @@
 {{ $text := replace . "{{< brand >}}" site.Params.brand.name }}
-{{ $text = replace . "{{< brand_email >}}" site.Params.brand.email }}
-{{ $text = replace . "{{< brand_screenshot_cms >}}" site.Params.brand.cms.decap }}
-{{ $text = replace . "{{< brand_url >}}" site.Params.brand.url }}
+{{ $text = replace $text "{{< brand_email >}}" site.Params.brand.email }}
+{{ $text = replace $text "{{< brand_screenshot_cms >}}" site.Params.brand.cms.decap }}
+{{ $text = replace $text "{{< brand_url >}}" site.Params.brand.url }}
 {{ return
   safeHTML (
     chomp (
