@@ -1,7 +1,7 @@
 <div class="content">
-  {{ with .TableOfContents }}
-    {{ $replace := replace . "id=\"TableOfContents\"" (printf "id='TableOfContents' aria-label='%s'" (i18n "toc")) }}
-    {{ $replace = replaceRE "HAHAHUGOSHORTCODE23s0HBHB" "{{< brand >}}" $replace  }}
+  {{- with .TableOfContents }}
+    {{- $replace := replace . "id=\"TableOfContents\"" (printf "id='TableOfContents' aria-label='%s'" (i18n "toc")) -}}
+    {{- $replace = replaceRE "HAHAHUGOSHORTCODE23s0HBHB" "{{< brand >}}" $replace  -}}
     {{ partial "func/PrepareHTML.html" $replace  }}
-  {{ end }}
+  {{- end }}
 </div>
