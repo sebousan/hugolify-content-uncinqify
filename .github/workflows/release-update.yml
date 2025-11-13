@@ -67,15 +67,15 @@ jobs:
 
           for repo in "${repos[@]}"; do
             echo "Updating $repo..."
-            git clone https://github.com/$repo.git
+            git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/$repo.git
             cd $(basename $repo)
             
             # Mettre à jour le module Hugo
-            hugo mod get github.com/sebousan/hugolify-theme-uncinqify@${{ steps.vars.outputs.tag }}
+            hugo mod get github.com/sebousan/hugolify-content-uncinqify@${{ steps.vars.outputs.tag }}
             hugo mod tidy
 
             git add go.mod go.sum
-            git commit -m "chore: update hugolify-theme-uncinqify to ${{ steps.vars.outputs.tag }}" || echo "No changes to commit"
+            git commit -m "chore: update hugolify-content-uncinqify to ${{ steps.vars.outputs.tag }}" || echo "No changes to commit"
             git push origin main
             cd ..
           done
