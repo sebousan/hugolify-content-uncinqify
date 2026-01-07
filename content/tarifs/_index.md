@@ -45,8 +45,8 @@ blocks:
         text: Pour un indépendant.
         offer:
           price: 39
-          frequency: /mois
-          text: HT et prélevé chaque mois (ou facturé une fois par an)
+          frequency: HT /mois
+          text: Facturé chaque mois via Stripe (ou 468 € HT à chaque début d’année).
         arguments:
           - text: "Licence {{< brand >}}"
             icon: patch-check
@@ -83,8 +83,8 @@ blocks:
         text: Pour une entreprise de plusieurs collaborateurs.
         offer:
           price: 69
-          frequency: /mois
-          text: HT et prélevé chaque mois (ou facturé une fois par an)
+          frequency: HT /mois
+          text: Facturé chaque mois via Stripe (ou 828 € HT à chaque début d’année).
         arguments:
           - text: "Licence {{< brand >}}"
             icon: patch-check
@@ -123,8 +123,8 @@ blocks:
         text: Pour une entreprise avec plusieurs lieux de plusieurs collaborateurs.
         offer:
           price: 99
-          frequency: /mois
-          text: HT et prélevé chaque mois (ou facturé une fois par an)
+          frequency: HT /mois
+          text: Facturé chaque mois via Stripe (ou 1188 € HT à chaque début d’année).
         arguments:
           - text: "Licence {{< brand >}}"
             icon: patch-check
