@@ -175,6 +175,9 @@ blocks:
       - icon: globe
         title: Multilingue
         text: Site Web en plusieurs langues.
+      - icon: google
+        title: Statistiques
+        text: Accès aux statistiques de votre site Web via Plausible (Conforme RGPD et données en UE).
   
   - type: editorial
     background: true
