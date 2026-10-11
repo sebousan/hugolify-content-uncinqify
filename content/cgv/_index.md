@@ -1,9 +1,9 @@
 ---
 isPage: true
 draft: false
-title: Conditions générale de vente
+title: Conditions générales de vente
 hero:
-  title: Conditions générale de vente
+  title: Conditions générales de vente
   image:
     src: https://res.cloudinary.com/uncinq/image/upload/v1768396973/585.Cozy-Reading_br4bao.svg
 image:
