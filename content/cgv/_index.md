@@ -16,7 +16,7 @@ _Date de dernière mise à jour : novembre 2026_
 
 {{< brand >}} est une solution de création, d'hébergement et de maintenance de sites Internet dédiée aux professionnels, éditée et commercialisée par :
 
-**Un Cinq**, entreprise unipersonnelle à responsabilité limitée (EURL) au capital de 1000 euros, immatriculée au registre du commerce et des sociétés de Bordeaux sous le numéro 950 935 866 R.C.S. Bordeaux, dont le siège social est situé 3 rue Lageyre, 33200 Bordeaux, numéro de TVA intracommunautaire FR71950935866, contact : {{< brand_email >}} (ci-après « le **Prestataire** »).
+**Un Cinq**, entreprise unipersonnelle à responsabilité limitée (EURL) au capital de 1 000 euros, immatriculée au registre du commerce et des sociétés de Bordeaux sous le numéro 950 935 866 R.C.S. Bordeaux, dont le siège social est situé 3 rue Lageyre, 33200 Bordeaux, numéro de TVA intracommunautaire FR71950935866, contact : {{< brand_email >}} (ci-après « le **Prestataire** »).
 
 Les présentes conditions générales de vente (ci-après les « **CGV** ») s'appliquent exclusivement aux relations entre professionnels. Conformément à l'article L441-1 du Code de commerce, elles constituent le socle unique de la négociation commerciale.
 
@@ -171,7 +171,7 @@ Ces événements ne constituent pas un manquement du Prestataire à ses obligati
 
 **12.7** Certains Services tiers sont établis ou traitent des données hors de l'Union européenne, notamment aux États-Unis. Ces transferts sont encadrés dans les conditions de l'article 16.5.
 
-**12.8 Formulaires.** Les messages envoyés depuis les formulaires du Site sont reçus par Netlify, qui les transmet par courrier électronique aux adresses désignées par le Client. Ces notifications sont émises depuis une adresse de Netlify (`formresponses@netlify.com`), qui ne peut pas être personnalisée, et non depuis le nom de domaine du Client. Lorsque les règles de filtrage de sa messagerie l'exigent, il appartient au Client de faire autoriser cette adresse par son service informatique ou son prestataire de messagerie. Le Prestataire ne répond pas de la non-réception d'une notification bloquée, retardée ou classée comme indésirable par la messagerie du Client.
+**12.8** Lorsque le Site comporte des formulaires, les messages envoyés par les visiteurs sont reçus par Netlify, qui les soumet à son filtre anti-spam puis transmet ceux qu'il n'a pas écartés, par courrier électronique, aux adresses désignées par le Client. Ces notifications sont émises depuis une adresse d'expédition de Netlify (à ce jour `formresponses@netlify.com`), et non depuis le nom de domaine du Client. Lorsque les règles de filtrage de sa messagerie l'exigent, il appartient au Client de faire autoriser cette adresse par son service informatique ou son prestataire de messagerie. Le Prestataire ne répond pas de la non-réception d'une notification bloquée, retardée ou classée comme indésirable, que ce soit par la messagerie du Client ou par le filtre anti-spam de Netlify. Les messages reçus restent consultables dans l'interface de Netlify ; le Prestataire peut, sur demande du Client, les vérifier ou les lui transmettre.
 
 ## Article 13 – Hébergement, maintenance et support
 
