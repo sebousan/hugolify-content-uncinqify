@@ -10,7 +10,7 @@ image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1768396973/585.Cozy-Reading_br4bao.svg
 ---
 
-_Date de dernière mise à jour : septembre 2026_
+_Date de dernière mise à jour : novembre 2026_
 
 ## Préambule
 
@@ -149,7 +149,7 @@ Le Client s'engage à :
 **12.1** Le Site repose sur des Services tiers sélectionnés par le Prestataire et listés en Annexe 1, notamment :
 
 - **GitHub**, pour l'hébergement et le versionnage du code source et des Contenus ;
-- **Netlify**, pour la compilation, le déploiement et l'hébergement du Site ;
+- **Netlify**, pour la compilation, le déploiement et l'hébergement du Site, ainsi que, le cas échéant, la réception des formulaires ;
 - **Uploadcare** ou **Cloudinary**, pour le stockage et la diffusion des médias, lorsque l'Option correspondante est souscrite ;
 - **Plausible Analytics**, pour la mesure d'audience, lorsque l'Option correspondante est souscrite.
 
@@ -170,6 +170,8 @@ Ces événements ne constituent pas un manquement du Prestataire à ses obligati
 **12.6** Le Prestataire peut remplacer un Service tiers par un service équivalent, y compris une solution auto-hébergée, sous réserve d'en informer préalablement le Client dans les conditions de l'article 16.4, et à condition que ce changement n'entraîne ni dégradation substantielle du Service ni surcoût pour le Client. L'Annexe 1 est mise à jour en conséquence.
 
 **12.7** Certains Services tiers sont établis ou traitent des données hors de l'Union européenne, notamment aux États-Unis. Ces transferts sont encadrés dans les conditions de l'article 16.5.
+
+**12.8 Formulaires.** Les messages envoyés depuis les formulaires du Site sont reçus par Netlify, qui les transmet par courrier électronique aux adresses désignées par le Client. Ces notifications sont émises depuis une adresse de Netlify (`formresponses@netlify.com`), qui ne peut pas être personnalisée, et non depuis le nom de domaine du Client. Lorsque les règles de filtrage de sa messagerie l'exigent, il appartient au Client de faire autoriser cette adresse par son service informatique ou son prestataire de messagerie. Le Prestataire ne répond pas de la non-réception d'une notification bloquée, retardée ou classée comme indésirable par la messagerie du Client.
 
 ## Article 13 – Hébergement, maintenance et support
 
@@ -291,7 +293,7 @@ Aucune partie n'est responsable d'un manquement résultant d'un cas de force maj
 | Service | Utilisation | Page de statut |
 |---|---|---|
 | [GitHub](https://github.com) | Hébergement et versionnage du code source et des Contenus | [githubstatus.com](https://www.githubstatus.com) |
-| [Netlify](https://www.netlify.com) | Compilation, déploiement et hébergement du Site | [netlifystatus.com](https://www.netlifystatus.com) |
+| [Netlify](https://www.netlify.com) | Compilation, déploiement et hébergement du Site, réception des formulaires | [netlifystatus.com](https://www.netlifystatus.com) |
 | [Uploadcare](https://uploadcare.com) | Stockage et diffusion des médias, selon le Devis | [status.uploadcare.com](https://status.uploadcare.com) |
 | [Cloudinary](https://cloudinary.com) | Stockage et diffusion des médias, selon le Devis | [status.cloudinary.com](https://status.cloudinary.com) |
 | [Plausible Analytics](https://plausible.io) | Mesure d'audience, selon le Devis | [status.plausible.io](https://status.plausible.io) |
