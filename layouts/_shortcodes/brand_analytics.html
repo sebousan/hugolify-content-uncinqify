@@ -1,0 +1,7 @@
+{{- /* Audience measurement paragraph for the privacy policy, driven by the site's analytics config (params.analytics). */ -}}
+{{- if site.Params.analytics.plausible -}}
+  {{- $title := i18n "link.blank_aria" (dict "Title" "Plausible Analytics") -}}
+  <p>Ce site mesure sa fréquentation avec <a href="https://plausible.io/data-policy" target="_blank" rel="noreferrer noopener" title="{{ safeHTML $title }}">Plausible Analytics</a>, un outil sans cookie qui ne collecte aucune donnée personnelle&nbsp;: les adresses IP ne sont pas conservées, les statistiques sont agrégées et anonymes, et les données sont hébergées dans l’Union européenne.</p>
+{{- else -}}
+  <p>Ce site ne mesure pas son audience.</p>
+{{- end -}}

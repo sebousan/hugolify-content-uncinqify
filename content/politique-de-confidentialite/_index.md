@@ -10,11 +10,15 @@ hero:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116479/146.Erasing_hrxo4s.svg
 ---
 
-_Date de dernière mise à jour : octobre 2022_
+_Date de dernière mise à jour : novembre 2026_
 
 ## Politique de protection des données
 
-Collecte des données : à ce jour, ce site Web ne collecte aucune donnée personnelle à travers son site internet (pas de mesure d’audience ni de formulaires).
+Collecte des données : à ce jour, ce site Web ne collecte aucune donnée personnelle (pas de formulaire ni de traceur).
+
+## Mesure d’audience
+
+{{< brand_analytics >}}
 
 ## Cookie
 
