@@ -15,9 +15,13 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-      - name: Get release tag
+      - name: Get release tag and module path
         id: vars
-        run: echo "tag=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
+        run: |
+          echo "tag=${GITHUB_REF##*/}" >> $GITHUB_OUTPUT
+          # From v2 on the module path ends with the major version (/v2):
+          # read it from the go.mod of the released commit
+          echo "path=$(awk '/^module /{print $2; exit}' go.mod)" >> $GITHUB_OUTPUT
 
       # Install Hugo
       - name: Install Hugo
@@ -69,9 +73,17 @@ jobs:
             echo "Updating $repo..."
             git clone https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/$repo.git
             cd $(basename $repo)
-            
+
+            # Only the sites that require this module path: a 2.x release must
+            # not reach a site still on v1, nor a 1.x release a site on v2
+            if ! grep -qF "${{ steps.vars.outputs.path }} " go.mod; then
+              echo "Skipping $repo: its go.mod does not require ${{ steps.vars.outputs.path }}"
+              cd ..
+              continue
+            fi
+
             # Mettre à jour le module Hugo
-            hugo mod get github.com/sebousan/hugolify-content-uncinqify@${{ steps.vars.outputs.tag }}
+            hugo mod get ${{ steps.vars.outputs.path }}@${{ steps.vars.outputs.tag }}
             hugo mod tidy
 
             git add go.mod go.sum
