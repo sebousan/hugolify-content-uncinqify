@@ -14,8 +14,8 @@ hero:
       text: Découvrir les avantages
 blocks:
   - type: informations
-    column: 4
-    background: false
+    ui:
+      column: 4
     heading:
       surtitle: Conception
       title: Un site Web de grande qualité !
@@ -47,7 +47,8 @@ blocks:
         icon: rotate-ccw-clock
   
   - type: cta
-    background: true
+    ui:
+      theme: light
     heading:
       surtitle: Forfaits et tarifs
       title: "Et un prix adapté à la taille {{< brand_your `of` >}} !"
@@ -56,7 +57,8 @@ blocks:
         text: En savoir plus sur les forfaits et tarifs
 
   - type: editorial
-    direction: rtl
+    ui:
+      direction: rtl
     surtitle: Orienté métier
     title: Les fonctionnalités
     text: "Création du contenu : lieux, personnes (associés, collaborateurs…), expertises métier, actualités…"
@@ -64,9 +66,9 @@ blocks:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116479/147.Multitasking_wqtjvy.svg
 
   - type: figure
-    background: false
-    grid: medium
-    offset: center
+    ui:
+      grid: medium
+      offset: center
     heading:
       surtitle: Simplicité d’utilisation
       title: Un espace de gestion de contenu orienté métier
@@ -78,7 +80,8 @@ blocks:
         Page d’accueil de l’espace de gestion de contenu
 
   - type: editorial
-    direction: ltr
+    ui:
+      direction: ltr
     surtitle: Modernité
     title: Les avantages
     text:
@@ -92,7 +95,8 @@ blocks:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116455/111.Business-plan_vozhtx.svg
   
   - type: cta
-    background: true
+    ui:
+      theme: light
     heading:
       surtitle: Et maintenant ?
       title: Prenez contact avec nous

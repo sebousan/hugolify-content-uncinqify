@@ -12,7 +12,8 @@ hero:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116455/111.Business-plan_vozhtx.svg
 blocks:
   - type: editorial
-    direction: rtl
+    ui:
+      direction: rtl
     title: Un CMS orienté métier
     text: >-
       Grâce à son espace d’administration dédié {{< brand_your >}}, la mise à jour de contenu est facilité.
@@ -22,7 +23,8 @@ blocks:
       url: /les-avantages/cms-oriente-metier/
       text: En savoir plus sur le CMS
   - type: editorial
-    direction: ltr
+    ui:
+      direction: ltr
     title: Performance optimale grâce à un site Web éco-conçu
     text: L’éco-conception est un des enjeux des prochaines années, nous vous expliquons pourquoi cette façon de concevoir permet d’avoir des sites Web performant et ultra-rapide.
     cta:
@@ -31,7 +33,8 @@ blocks:
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116598/179.Planet_kydicb.svg
   - type: editorial
-    direction: rtl
+    ui:
+      direction: rtl
     title: Sécurité maximale
     text: "Les sites Web {{< brand >}} sont sécurisés grâce à l’utilisation de la technique Jamstack. Pas de langage serveur, ni de base de données."
     image:
@@ -40,7 +43,8 @@ blocks:
       text: En savoir plus sur la sécurité
       url: /les-avantages/securite-maximale/
   - type: editorial
-    direction: ltr
+    ui:
+      direction: ltr
     title: Accessible à tous
     text: L’accessibilité numérique consiste à rendre les services en ligne
       accessibles aux personnes en situation de handicap. Nous suivons la direction
@@ -52,7 +56,8 @@ blocks:
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1758116481/150.Cubes_llpfto.svg
   - type: editorial
-    direction: rtl
+    ui:
+      direction: rtl
     title: Référencement soigné
     text: La conception d’un site Web bas carbone profite au référencement. Google favorise un site Web bien conçu et rapide.
     image:
@@ -61,7 +66,8 @@ blocks:
       text: En savoir plus sur le référencement
       url: /les-avantages/referencement-soigne/
   - type: editorial
-    direction: ltr
+    ui:
+      direction: ltr
     title: Infrastructure
     text: "Découvrez l’infrastructure technique de {{< brand >}}."
     cta:

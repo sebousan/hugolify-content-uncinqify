@@ -12,7 +12,6 @@ hero:
     src: https://res.cloudinary.com/uncinq/image/upload/v1758116483/153.Mention_kqyrso.svg
 blocks:
   - type: cta
-    background: false
     heading:
       title: Simplement par
     ctas:
