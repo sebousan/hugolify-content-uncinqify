@@ -1,0 +1,26 @@
+{{- /*
+  commons/toc/content.html: overrides the core partial for the headings that
+  hold a brand shortcode of this module (`## {{< brand >}} précompile…`).
+
+  Hugo builds .TableOfContents before the shortcodes run, so the entry of such
+  a heading reads one of its internal placeholders (HAHAHUGOSHORTCODE…HBHB),
+  which also ends up in the heading id. Each entry whose anchor carries one
+  takes the text of its rendered heading in .Content instead. The ids keep the
+  placeholder: the links still match their headings.
+
+  Everything else is the core partial as is. Keep it in step with
+  hugolify-theme/v2 (layouts/_partials/commons/toc/content.html).
+*/ -}}
+<div class="content">
+  {{ with partialCached "func/GetTableOfContents.html" . .RelPermalink }}
+    {{ $replace := replace . "id=\"TableOfContents\"" (printf "id='TableOfContents' aria-label='%s'" (i18n "toc")) }}
+    {{- range findRESubmatch `<h[1-6][^>]*\sid="([^"]*hahahugoshortcode[^"]*)"[^>]*>(?s:(.*?))</h[1-6]>` $.Content }}
+      {{- $anchor := printf `<a href="#%s">` (index . 1) -}}
+      {{- $text := index . 2 -}}
+      {{- with findRE (printf `%s(?s:.*?)</a>` $anchor) $replace 1 }}
+        {{- $replace = replace $replace (index . 0) (printf `%s%s</a>` $anchor $text) -}}
+      {{- end }}
+    {{- end }}
+    {{ $replace | safeHTML }}
+  {{ end }}
+</div>

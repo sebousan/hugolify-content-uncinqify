@@ -1,0 +1,50 @@
+{{- /*
+  commons/cta.html: overrides the core partial so that a CTA url may hold the
+  brand shortcodes of this module, written in front matter (for instance
+  `url: "mailto:{{< brand_email >}}"` on the contact page): the url goes through
+  func/PrepareHTML.html, like the text and the title already do.
+
+  Everything else is the core partial as is. Keep it in step with
+  hugolify-theme/v2 (layouts/_partials/commons/cta.html).
+*/ -}}
+{{- with . -}}
+  {{/* `link` (admin field is_link) renders the CTA as a plain link: same
+       markup, minus the .btn class. A custom `class` is still appended. */}}
+  {{- $classes := slice -}}
+  {{- if not .link -}}
+    {{- $classes = $classes | append "btn" -}}
+  {{- end -}}
+  {{- with .class -}}
+    {{- $classes = $classes | append . -}}
+  {{- end -}}
+  {{- $class := delimit $classes " " -}}
+  {{- $text := partial "func/PrepareHTML.html" .text -}}
+  {{- $blank := .blank | default false -}}
+  {{- $title := (partial "func/PrepareHTML.html" .title) | default $text -}}
+  {{/* The admin field is named `lang`; `hreflang` is the attribute and wins when both are set. */}}
+  {{- $hreflang := .hreflang | default .lang | default false -}}
+  {{- /* Optional `rel` key (e.g. "me", Mastodon profile verification /
+       IndieWeb identity): prepended to the theme's "noreferrer noopener".
+       Without it, the output is unchanged. */ -}}
+  {{- $rel := "noreferrer noopener" -}}
+  {{- with .rel -}}
+    {{- $rel = printf "%s %s" . $rel -}}
+  {{- end -}}
+  {{- if and .url .text -}}
+    {{- if $blank }}
+      {{- $title = i18n "link.blank_aria" (dict "Title" $title) -}}
+    {{- end -}}
+    <a
+      {{ printf `href=%q` (partial "func/PrepareHTML.html" .url) | safeHTMLAttr }}
+      {{- with $class }}
+      class="{{ . }}"
+      {{- end }}
+      title="{{ $title }}"
+      {{- with $blank }} target="_blank"{{ end -}}
+      {{- if or $blank .rel }} rel="{{ $rel }}"{{ end -}}
+      {{- with $hreflang }} hreflang="{{ . }}"{{ end -}}
+      >
+      {{- $text -}}
+    </a>
+  {{- end -}}
+{{- end -}}
