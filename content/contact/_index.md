@@ -15,12 +15,11 @@ blocks:
     background: false
     heading:
       title: Simplement par
-    cta:
-      blank: true
-      url: "mailto:{{< brand_email >}}"
-      text: "email à {{< brand_email >}}"
-    cta_second:
-      blank: true
-      url: 'tel:+33678858604'
-      text: téléphone au +33 6 78 85 86 04
+    ctas:
+      - blank: true
+        url: "mailto:{{< brand_email >}}"
+        text: "email à {{< brand_email >}}"
+      - blank: true
+        url: 'tel:+33678858604'
+        text: téléphone au +33 6 78 85 86 04
 ---
